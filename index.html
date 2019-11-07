@@ -12,8 +12,16 @@
         for(var i =1;i<=100;i++)
           
          {
+             if (i % 3 == 0){
+                document.getElementById('result').innerHTML+= "Fizz";
+            document.getElementById('result').innerHTML+= "<br>";
+             }else{
+                 
              document.getElementById('result').innerHTML+= i;
             document.getElementById('result').innerHTML+= "<br>";
+             }
+
+            
          }
         </script>
 </body>
